@@ -118,9 +118,11 @@ td,th{
     text-align: center;
     padding:12px;
 }
-
+tr:nth-child(even){
+     background-color: #16222A;
+     
 tr:nth-child(odd){ 
-    background-color: #16222A;
+    background-color:rgpa(255,255,255,0.262);
 }
 th{ 
     transition-duration: 0.5s;
