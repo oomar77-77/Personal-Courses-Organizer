@@ -243,6 +243,21 @@ td:hover {
     background-color: transparent;
     color: #000;
 }
+.foott{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.foott p{
+    width: 100%;
+    background-color: #16222A;
+    text-align: center;
+    letter-spacing: 1px; 
+    padding: 20px; 
+    color: white;
+}
     
      
 /* Contact us */
