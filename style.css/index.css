@@ -11,7 +11,6 @@ html {
  body{ 
     background-color: #3A6073; 
     overflow-x: hidden;
-     /* *height: 100%;/* */ 
 }
 /* Home */
 .home{ 
@@ -90,9 +89,6 @@ main nav .links ul li a:hover{
     padding: 20px; 
      color:white;
 }
-.home .end{
-    
-}
 /* My cources */
 .mycourses{ 
     height: 70vh;
@@ -145,7 +141,7 @@ td:hover {
     margin-top:10px;
     display: flex;
     justify-content: center; 
-    align-items: center;/*  */
+    align-items: center;
     justify-content: center;  
     position: fixed;
     bottom: 0;
@@ -168,7 +164,6 @@ td:hover {
     justify-content: center;
     align-items: center; 
 }
-
 #Add form {
     width: 60%;
     margin: 0 auto;
@@ -181,18 +176,14 @@ td:hover {
     border-radius: 20px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.2); 
 }
-
 #Add form .input-group {
     margin-bottom: 10px;
 }
-
 #Add form .input-group label {
     display: block;
     margin-bottom: 5px;
-
     color: white; 
 }
-
 #Add form .input-group input {
     width: 100%;
     padding: 10px;
@@ -200,7 +191,6 @@ td:hover {
     border-radius: 10px;
     border-color: transparent;
     transition-duration: 1s;
-
     background: rgba(255,255,255,0.2); 
     color: white; 
 }
@@ -218,7 +208,6 @@ td:hover {
     height: 150px;
     resize: none;
     margin-bottom: 15px;
-
     background: rgba(255,255,255,0.2);
     color: white; 
     border-radius: 10px; 
@@ -238,7 +227,6 @@ td:hover {
     transition-duration: 0.5s;
     cursor: pointer;
     margin-bottom: 20px;
-
     margin-top: 10px; 
 }
 
@@ -261,8 +249,6 @@ td:hover {
     padding: 20px; 
     color: white;
 }
-    
-     
 /* Contact us */
 #contact{ 
     width: 100%;
@@ -292,11 +278,8 @@ td:hover {
     border-radius: 10px;
       border-color: transparent;
     transition-duration: 1s;
-
     background: rgba(255,255,255,0.2); 
     color: white; 
-     
-    
 }
 #contact form .input-group{
      margin-bottom:10px;
@@ -315,8 +298,6 @@ td:hover {
     color: white; 
     border-radius: 10px; 
     padding: 10px; 
-      
-     
 }
 #contact form button{
     width: 100%;
@@ -352,6 +333,4 @@ td:hover {
     margin-top: 5px;
      color:white;
 }
-/*  *#contact .end{
-     margin-top: 25px; 
-}
+
