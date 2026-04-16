@@ -120,6 +120,7 @@ td,th{
 }
 tr:nth-child(even){
      background-color: #16222A;
+     color:white;
      
 tr:nth-child(odd){ 
     background-color:rgpa(255,255,255,0.262);
