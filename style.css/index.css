@@ -198,11 +198,11 @@ td:hover {
     border-color: transparent;
     transition-duration: 1s;
 
-    background: rgba(222,222,222,0.2); 
+    background: rgba(255,255,255,0.2); 
     color: white; 
 }
 
-#Add form .input-group input::placeholder {
+#Add form .input-group{ input::placeholder 
     color: #eee;
 }
 
@@ -268,10 +268,11 @@ td:hover {
 #contact form{
      width: 30%;
       margin: 0 auto;
-      background:rgpa(255,255,255,0.262);
-          backdrop-filter: blur(50px);
-      border-radius:20px;
-     box-shadow:0 8px 30px rgpa(0,0,0,0,2);
+     background: rgba(255, 255, 255, 0.262); 
+    backdrop-filter: blur(50px); 
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2); 
+     
 }
 #contact form .input-group{
      margin-bottom: 15px; 
@@ -285,17 +286,18 @@ td:hover {
     width: 100%;
     padding: 15px;
     border-radius: 10px;
-      background:rgpa(255,255,255,0.262);
-          backdrop-filter: blur(50px);
-    border-color: transparent;
+      border-color: transparent;
     transition-duration: 1s;
-     border-color:transparent;
+
+    background: rgba(255,255,255,0.2); 
+    color: white; 
+     
     
 }
 #contact form .input-group{
      margin-bottom:10px;
-     input::placeholder{
-          color:#eee;
+      input::placeholder 
+    color: #eee;
      }
 }
 #contact form .input-group input:hover{
