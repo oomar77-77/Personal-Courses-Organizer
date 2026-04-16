@@ -272,6 +272,7 @@ td:hover {
     backdrop-filter: blur(50px); 
     border-radius: 20px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.2); 
+     padding:25px;
      
 }
 #contact form .input-group{
