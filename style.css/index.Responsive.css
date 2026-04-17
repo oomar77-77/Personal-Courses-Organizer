@@ -30,7 +30,7 @@
     #Add{
         min-height: 100vh;
     }
-    #Add , form{
+    #Add form{
         width: 60%;
         margin: 10px auto;
         padding: 5px;
