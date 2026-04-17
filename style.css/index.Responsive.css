@@ -31,7 +31,7 @@
         min-height: 100vh;
     }
     #Add , form{
-        width: 90%;
+        width: 60%;
         margin: 10px auto;
         padding: 15px 10px;
     }
@@ -60,6 +60,9 @@
         margin-top: 200px;
         line-height: 15px;
 
+    }
+    #contact form{
+        width:60%;
     }
 }
 @media (min-width: 371px) and (max-width: 1300px) {
