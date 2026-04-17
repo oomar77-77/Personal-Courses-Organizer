@@ -31,8 +31,10 @@
         min-height: 100vh;
     }
     #Add form{
-        width: 80%;
+        width: 90%;
         margin: 10px auto;
+        padding: 5px;
+        height:115%;
     }
     #Add form label{
         display: block;
