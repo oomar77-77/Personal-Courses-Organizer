@@ -62,7 +62,7 @@
 
     }
     #contact form{
-        width:60%;
+        padding:10px
     }
 }
 @media (min-width: 371px) and (max-width: 1300px) {
